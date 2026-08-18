@@ -1,0 +1,14 @@
+/* TEAM */
+  CEO & Co-Founder: Ian Cassidy
+  CTO & Co-Founder: Prof. Aleks Farseev — https://farseev.com
+  Chief Innovation Officer: Kirill Lepikhin
+  Data Science Lead: Danil Onishchenko
+  Lead Software Developer: Eric Haberzettl
+  Head of Customer Success: Kaitlin Khu
+  Contact: talktous@defygroup.ai
+  Location: London, United Kingdom / Singapore
+
+/* SITE */
+  Standards: HTML5, CSS3, Schema.org JSON-LD
+  Components: none — single self-contained page
+  Typefaces: Playfair Display, DM Sans

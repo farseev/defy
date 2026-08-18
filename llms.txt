@@ -1,0 +1,60 @@
+# Defy Group
+
+> Defy Group builds AI agents and live category intelligence for marketing agencies. Five agents each run a marketing job end to end — paid media, CRM, influencer and GMV, strategy, and community management — reading live competitor and audience signal, doing the work, and handing back something a human approves before it spends, sends or publishes. Agencies license the agents per client and white-label them into their own brand.
+
+Positioning: "The repetitive half of the job now runs itself." Four of the five agents are live on real client accounts. Every agent has a human sign-off gate.
+
+## The five agents
+
+- [Paid Media Agent](https://defygroup.ai/#paid-media) — LIVE. Comes into a live Meta campaign a few days in, reads which ads are actually winning against the campaign goal (awareness, traffic, leads and sales each change what "good" means), flags what is fatiguing or too alike, extracts the concept behind the winners, finds the category's paid whitespace, generates a fresh top/middle/bottom funnel in that space, scores every new ad for likely click-through before any spend, and pushes the top scorers back into the same campaign — built paused, awaiting human approval. Afterwards it checks predictions against real results.
+- [CRM Agent](https://defygroup.ai/#crm) — IN FINAL BUILD. Takes an audience and a goal, designs three genuinely different email strategies (varying message, offer, frequency and channel, never one-variable tweaks), builds the approved one as live assets inside Klaviyo (flows, splits, copy, schedules, frequency caps), calls the statistically significant winner at 95% on a minimum sample, makes the winner the new control and loops. Two human approval gates and a kill switch that stops the loop inside a minute. Platform-agnostic by design; Klaviyo is the first integration.
+- [Influencer & GMV Agent](https://defygroup.ai/#influencer) — LIVE. Takes a roster of sales-driving TikTok Shop creators, gives each a distinct lane so no two compete on the same ground, works out what is driving each creator's sales (what they say, how they present the product, how they frame the hook), and returns a bespoke per-creator brief evidenced with that creator's real posts, plus a portfolio view and one deck per creator. Sales figures come from the client's programme export; the agent reads content and engagement, so the two sources stay labelled separately.
+- [Strategy Agent](https://defygroup.ai/#strategy) — LIVE. Reads the competitive field and the live audience conversation, finds the whitespace nobody owns (and will rule an angle out, not only confirm it), builds the target persona, cultural tension, core idea and creative/messaging routes, then renders it as a client-ready deck in the end client's own brand — a full briefing, or a tighter single-idea new-business pitch.
+- [Community Management Agent](https://defygroup.ai/#community) — LIVE, PEER-REVIEWED. Watches what is landing in the category through Defy Monitor, breaks the best content into angles, tensions and themes, finds the story on its own, writes the post in the account's voice, generates a brand-aligned image under hard constraints, then compiles, schedules and publishes to LinkedIn and wider social. Runs fully autonomous or behind a sign-off checkpoint. The same engine scales executive personal branding.
+
+## What sits underneath
+
+- Defy Monitor — live competitor, audience and conversation intelligence on every client and category, decoded into proposition, persona, emotion, format and call to action, then scored and clustered. All five agents read from it.
+- Defy MCP — interrogate that data from inside Claude and other MCP-compatible tools. No dashboard to learn.
+
+## Commercial model
+
+Defy licenses each agent to an agency partner per client, per month, on a twelve-month term, on top of a Defy Monitor subscription. The agency white-labels it (own subdomain, logo, colours, team and client seats) and passes it to the client with its own margin. Brands with in-house teams can license directly. Pricing is quoted per setup — contact talktous@defygroup.ai.
+
+## Who buys which agent
+
+- Paid Media — Agency MD or Head of Performance; brand-side, the Performance Marketing Director. Championed by the paid lead.
+- CRM — Head of CRM/Retention or Ecommerce Director; agency-side the CRM practice lead. Championed by the lifecycle manager.
+- Influencer & GMV — Head of Influencer / Social Commerce or Brand Partnerships. Championed by the creator manager.
+- Strategy — Agency MD or Strategy Director; brand-side the commissioning marketing lead. Championed by the new-business lead.
+- Community Management — Head of Social / Content / Brand, or the exec themselves for personal branding. Championed by the social lead.
+
+## Proof
+
+- Paid Media Agent: run end to end on a real Meta account — diagnosed, generated, scored, pushed and activated.
+- Influencer & GMV Agent: delivered on a live SAMY and L'Oréal creator programme.
+- Strategy Agent: produced decks for real clients across finance, healthcare, mobility and payments.
+- Community Management Agent: runs Defy's own LinkedIn page; the method was accepted at SIGIR 2026.
+- Clients and partners include SharkNinja (internal strategy team), SAMY (global influencer agency) and Enchant (UK CRM agency).
+
+## Team
+
+- Ian Cassidy — CEO & Co-Founder. Twenty years in creative agencies; built SHARE Creative.
+- Prof. Aleks Farseev — CTO & Co-Founder. AI professor in Singapore, peer-reviewed at SIGIR, AAAI and The Web Conference. https://farseev.com
+- Kirill Lepikhin — Chief Innovation Officer. Co-founder of the intelligence platform the agents run on; author on the creative-scoring research behind the paid media prediction. Based in Singapore.
+- Danil Onishchenko — Data Science Lead. PhD candidate in AI agents at the National University of Singapore.
+- Eric Haberzettl — Lead Software Developer. Information systems at Otto-Friedrich-Universität Bamberg; previously Siemens.
+- Kaitlin Khu — Head of Customer Success, London. International economics and data science, UBC.
+
+## Honest limits
+
+- The CRM Agent's engine is built and quoted, but final build sign-off is still open. It is not shipped.
+- The Strategy Agent produces a starting brief, not a finished strategy.
+- Predicted click-through is a prediction, shown as one, and closed out against real results.
+- GMV and earnings figures come from the client's own programme export, not from Defy.
+
+## Contact
+
+- Website: https://defygroup.ai/
+- Email: talktous@defygroup.ai
+- Longer brief for citation: https://defygroup.ai/llms-full.txt
