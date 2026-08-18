@@ -8,9 +8,9 @@ Drop the contents of this folder at the web root and it works.
 2. `CNAME` already contains `defygroup.ai`.
 3. Confirm Pages is set to that branch, root folder. Done.
 
-Paths are absolute (`/media/...`, `/fonts/...`), so it must be served from the
-domain root, not a subfolder. If it ever needs to live in a subfolder, make the
-paths relative (drop the leading `/`).
+All paths are relative, so this works three ways: double-clicked straight off
+your desktop, hosted at the domain root, or hosted in a subfolder like
+`/preview/`. All three are tested.
 
 ## What's in here
 - `index.html` — the whole page. CSS is inline, one small script for the FAQ accordion.
@@ -30,10 +30,9 @@ with twelve Q&As. The FAQ block is the one most likely to get picked up as a ric
 result, and it mirrors the visible FAQ exactly, which is what Google requires.
 
 ## Open items
-- **Ian and Aleks have monogram tiles.** Send headshots and they drop straight in
-  as `media/ian.jpg` and `media/aleks.jpg` — swap the `.mono` div for an `<img>`
-  in the two `.founder` blocks. Run them through the same treatment as the others
-  so the set stays consistent.
+- All six portraits are in and share one treatment: cut out, matted onto the same
+  #181818 surround, face width normalised to 323px, one duotone curve. If anyone's
+  photo changes, run it through the same pipeline rather than dropping the raw file in.
 - **Check the photo/name pairing** on Eric and Danil. LinkedIn blocks scraping, so
   the pairing came from the order the files arrived in, not from the profiles.
   If it's wrong it's a two-second fix: swap `media/eric.jpg` and `media/danil.jpg`.

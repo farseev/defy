@@ -29,19 +29,19 @@
 <meta name="twitter:image" content="https://defygroup.ai/og-cover.jpg">
 <meta name="twitter:image:alt" content="Defy Agents — five AI agents that run the marketing work agencies bill for.">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
 
-<link rel="alternate" type="application/rss+xml" title="Defy Group" href="/feed.xml">
-<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-<link rel="alternate" type="text/plain" title="LLM index" href="/llms.txt">
+<link rel="alternate" type="application/rss+xml" title="Defy Group" href="feed.xml">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+<link rel="alternate" type="text/plain" title="LLM index" href="llms.txt">
 
-<link rel="preload" as="font" type="font/woff2" href="/fonts/playfair-display-latin-900-normal.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/dm-sans-latin-400-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/playfair-display-latin-900-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/dm-sans-latin-400-normal.woff2" crossorigin>
 
 <!-- ================= STRUCTURED DATA (SEO / AEO / GEO) ================= -->
 <script type="application/ld+json">
@@ -94,13 +94,13 @@
 <!-- ================= END STRUCTURED DATA ================= -->
 
 <style>
-@font-face{font-family:'Playfair Display';src:url('/fonts/playfair-display-latin-700-normal.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
-@font-face{font-family:'Playfair Display';src:url('/fonts/playfair-display-latin-700-italic.woff2') format('woff2');font-weight:700;font-style:italic;font-display:swap}
-@font-face{font-family:'Playfair Display';src:url('/fonts/playfair-display-latin-800-normal.woff2') format('woff2');font-weight:800;font-style:normal;font-display:swap}
-@font-face{font-family:'Playfair Display';src:url('/fonts/playfair-display-latin-900-normal.woff2') format('woff2');font-weight:900;font-style:normal;font-display:swap}
-@font-face{font-family:'DM Sans';src:url('/fonts/dm-sans-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:'DM Sans';src:url('/fonts/dm-sans-latin-500-normal.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap}
-@font-face{font-family:'DM Sans';src:url('/fonts/dm-sans-latin-700-normal.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Playfair Display';src:url('fonts/playfair-display-latin-700-normal.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Playfair Display';src:url('fonts/playfair-display-latin-700-italic.woff2') format('woff2');font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'Playfair Display';src:url('fonts/playfair-display-latin-800-normal.woff2') format('woff2');font-weight:800;font-style:normal;font-display:swap}
+@font-face{font-family:'Playfair Display';src:url('fonts/playfair-display-latin-900-normal.woff2') format('woff2');font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:'DM Sans';src:url('fonts/dm-sans-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'DM Sans';src:url('fonts/dm-sans-latin-500-normal.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'DM Sans';src:url('fonts/dm-sans-latin-700-normal.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
 </style>
 
 <style>
@@ -289,27 +289,23 @@ nav ul a:hover{color:var(--ink);border-bottom-color:var(--red)}
 /* ---------- team ---------- */
 .people{display:grid;grid-template-columns:repeat(4,1fr);gap:38px 26px}
 .person .frame{width:100%;aspect-ratio:1/1;overflow:hidden;transform:skewX(var(--sk));background:#181818;border:1px solid var(--rule);margin-bottom:20px}
-.person .frame img,.person .frame .mono{width:118%;height:100%;object-fit:cover;transform:skewX(calc(var(--sk) * -1)) translateX(-7.5%)}
-.person .frame .mono{display:flex;align-items:center;justify-content:center;background:#181818}
-.person .frame .mono b{font-family:var(--serif);font-weight:900;font-size:52px;color:#fff;letter-spacing:-1px}
-.person .frame .mono .pg{width:12px;height:12px;margin-left:8px;align-self:flex-end;margin-bottom:34px}
+.person .frame img{width:118%;height:100%;object-fit:cover;transform:skewX(calc(var(--sk) * -1)) translateX(-7.5%)}
 .person h4{font-size:20px;margin-bottom:5px}
 .person .role{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:14px}
 .person .bio{font-size:14.5px;line-height:1.75;color:#555}
 .person .li{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);border-bottom:1px solid var(--rule);padding-bottom:3px;transition:.15s}
 .person .li:hover{color:var(--ink);border-bottom-color:var(--red)}
 .founders{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-bottom:70px;padding-bottom:56px;border-bottom:1px solid var(--rule)}
-.founder{display:flex;gap:26px;align-items:flex-start}
-.founder .frame{width:148px;height:148px;flex:none;aspect-ratio:auto;margin-bottom:0}
+.founder{display:flex;gap:30px;align-items:flex-start}
+.founder .frame{width:212px;height:212px;flex:none;aspect-ratio:auto;margin-bottom:0}
 .founder .txt{flex:1 1 auto;min-width:0}
-.founder .frame .mono b{font-size:38px}
-.founder .frame .mono .pg{width:9px;height:9px;margin-left:6px;margin-bottom:20px}
-@media(max-width:560px){.founder{flex-direction:column;gap:18px}.founder .frame{width:130px;height:130px}}
+@media(max-width:900px){.founder .frame{width:170px;height:170px}}
+@media(max-width:560px){.founder{flex-direction:column;gap:18px}.founder .frame{width:190px;height:190px}}
 @media(max-width:1040px){.people{grid-template-columns:repeat(2,1fr);gap:38px 32px}}
 @media(max-width:900px){.founders{grid-template-columns:1fr;gap:32px}}
 @media(max-width:760px){
   .person .frame{transform:skewX(-9deg)}
-  .person .frame img,.person .frame .mono{width:112%;transform:skewX(9deg) translateX(-5.4%)}
+  .person .frame img{width:112%;transform:skewX(9deg) translateX(-5.4%)}
 }
 @media(max-width:560px){.people{grid-template-columns:1fr}.person .frame{max-width:330px}}
 
@@ -451,7 +447,7 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
         </div>
                 <div class="agent-side">
           <div class="chip"><span class="pg"></span><span>Live</span></div>
-          <img class="viz" src="/media/agent-01.jpg" width="178" height="178" alt="Abstract Defy graphic: a stack of parallelogram bars with three marked in red, for creative ranked and scored before spend" loading="lazy">
+          <img class="viz" src="media/agent-01.jpg" width="178" height="178" alt="Abstract Defy graphic: a stack of parallelogram bars with three marked in red, for creative ranked and scored before spend" loading="lazy">
         </div>
       </div>
       <div class="agent-grid">
@@ -501,7 +497,7 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
         </div>
                 <div class="agent-side">
           <div class="chip build"><span class="pg"></span><span>In final build</span></div>
-          <img class="viz" src="/media/agent-02.jpg" width="178" height="178" alt="Abstract Defy graphic: three diverging paths of parallelograms converging into one solid red shape, for three email strategies resolving into one winner" loading="lazy">
+          <img class="viz" src="media/agent-02.jpg" width="178" height="178" alt="Abstract Defy graphic: three diverging paths of parallelograms converging into one solid red shape, for three email strategies resolving into one winner" loading="lazy">
         </div>
       </div>
       <div class="agent-grid">
@@ -551,7 +547,7 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
         </div>
                 <div class="agent-side">
           <div class="chip"><span class="pg"></span><span>Live</span></div>
-          <img class="viz" src="/media/agent-03.jpg" width="178" height="178" alt="Abstract Defy graphic: parallelogram tiles each sitting in its own lane with one marked red, for a distinct lane per creator" loading="lazy">
+          <img class="viz" src="media/agent-03.jpg" width="178" height="178" alt="Abstract Defy graphic: parallelogram tiles each sitting in its own lane with one marked red, for a distinct lane per creator" loading="lazy">
         </div>
       </div>
       <div class="agent-grid">
@@ -599,7 +595,7 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
         </div>
                 <div class="agent-side">
           <div class="chip"><span class="pg"></span><span>Live</span></div>
-          <img class="viz" src="/media/agent-04.jpg" width="178" height="178" alt="Abstract Defy graphic: a grid of outlined parallelograms with one gap and a red shape outside it, for category whitespace" loading="lazy">
+          <img class="viz" src="media/agent-04.jpg" width="178" height="178" alt="Abstract Defy graphic: a grid of outlined parallelograms with one gap and a red shape outside it, for category whitespace" loading="lazy">
         </div>
       </div>
       <div class="agent-grid">
@@ -646,7 +642,7 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
         </div>
                 <div class="agent-side">
           <div class="chip"><span class="pg"></span><span>Live &middot; peer-reviewed</span></div>
-          <img class="viz" src="/media/agent-05.jpg" width="178" height="178" alt="Abstract Defy graphic: a calendar grid of parallelograms with a red diagonal rhythm, for a daily publishing cadence" loading="lazy">
+          <img class="viz" src="media/agent-05.jpg" width="178" height="178" alt="Abstract Defy graphic: a calendar grid of parallelograms with a red diagonal rhythm, for a daily publishing cadence" loading="lazy">
         </div>
       </div>
       <div class="agent-grid">
@@ -770,7 +766,7 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
 
     <div class="founders">
       <div class="person founder">
-        <div class="frame"><div class="mono"><b>IC</b><span class="pg" aria-hidden="true"></span></div></div>
+        <div class="frame"><img src="media/ian.jpg" width="212" height="212" alt="Ian Cassidy" loading="lazy"></div>
         <div class="txt">
           <h4>Ian Cassidy</h4>
           <div class="role">CEO &amp; Co-Founder</div>
@@ -778,7 +774,7 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
         </div>
       </div>
       <div class="person founder">
-        <div class="frame"><div class="mono"><b>AF</b><span class="pg" aria-hidden="true"></span></div></div>
+        <div class="frame"><img src="media/aleks.jpg" width="212" height="212" alt="Prof. Aleks Farseev" loading="lazy"></div>
         <div class="txt">
           <h4>Prof. Aleks Farseev</h4>
           <div class="role">CTO &amp; Co-Founder</div>
@@ -790,28 +786,28 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
 
     <div class="people">
       <div class="person">
-        <div class="frame"><img src="/media/kirill.jpg" width="600" height="600" alt="Kirill Lepikhin" loading="lazy"></div>
+        <div class="frame"><img src="media/kirill.jpg" width="600" height="600" alt="Kirill Lepikhin" loading="lazy"></div>
         <h4>Kirill Lepikhin</h4>
         <div class="role">Chief Innovation Officer</div>
         <p class="bio">Decides what the agents learn to do next. Co-founded and built the intelligence platform they run on, has fifteen years of engineering behind him, and is an author on the creative-scoring research the paid media prediction rests on. Based in Singapore.</p>
         <a class="li" href="https://www.linkedin.com/in/k-lepikhin/" rel="noopener" target="_blank">LinkedIn</a>
       </div>
       <div class="person">
-        <div class="frame"><img src="/media/danil.jpg" width="600" height="600" alt="Danil Onishchenko" loading="lazy"></div>
+        <div class="frame"><img src="media/danil.jpg" width="600" height="600" alt="Danil Onishchenko" loading="lazy"></div>
         <h4>Danil Onishchenko</h4>
         <div class="role">Data Science Lead</div>
         <p class="bio">Leads the data science behind the agents' scoring and prediction. PhD candidate in AI agents at the National University of Singapore, with a background in applied mathematics and three years building production ML in commerce and industry before this.</p>
         <a class="li" href="https://www.linkedin.com/in/danil-onishchenko-30876037a" rel="noopener" target="_blank">LinkedIn</a>
       </div>
       <div class="person">
-        <div class="frame"><img src="/media/eric.jpg" width="600" height="600" alt="Eric Haberzettl" loading="lazy"></div>
+        <div class="frame"><img src="media/eric.jpg" width="600" height="600" alt="Eric Haberzettl" loading="lazy"></div>
         <h4>Eric Haberzettl</h4>
         <div class="role">Lead Software Developer</div>
         <p class="bio">Leads the engineering on the surfaces the agents hand their work back through. Information systems at Otto-Friedrich-Universit&auml;t Bamberg, by way of supply-chain digitalisation at Siemens and an exchange year in Sweden.</p>
         <a class="li" href="https://www.linkedin.com/in/erichaberzettl/" rel="noopener" target="_blank">LinkedIn</a>
       </div>
       <div class="person">
-        <div class="frame"><img src="/media/kaitlin.jpg" width="600" height="600" alt="Kaitlin Khu" loading="lazy"></div>
+        <div class="frame"><img src="media/kaitlin.jpg" width="600" height="600" alt="Kaitlin Khu" loading="lazy"></div>
         <h4>Kaitlin Khu</h4>
         <div class="role">Head of Customer Success</div>
         <p class="bio">Owns onboarding and the day-to-day with partner agencies from London. International economics and data science at UBC, and the person who notices when an agent's output isn't landing the way the deck said it would.</p>
@@ -870,7 +866,7 @@ footer a.mail{color:#EDEDED;border-bottom:1px solid var(--red);padding-bottom:2p
           <li><a href="#partners">For agencies</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#faq">Questions</a></li>
-          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="llms.txt">llms.txt</a></li>
         </ul>
       </nav>
     </div>
